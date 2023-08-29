@@ -1,0 +1,12 @@
+    {
+        "name": "destiny/medika",
+        "description": "Deskripsi proyek Anda",
+        "type": "project",
+        "require": {
+            "php": "^7.0",
+            "phpoffice/phpspreadsheet": "^1.29"
+        }
+    }
+    
+
+

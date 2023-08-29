@@ -1,0 +1,14 @@
+/* CSS untuk mode terang (default) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Media query untuk mode gelap */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #222222;
+      color: #ffffff;
+    }
+  }
+  
