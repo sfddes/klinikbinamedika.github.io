@@ -1,3 +1,5 @@
- 
-RewriteEngine on
+RewriteEngine On
 RewriteRule ^$ login.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /login.php [L]
